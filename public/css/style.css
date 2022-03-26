@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+:root {
+    --white: #EEEEEE;
+    --black: #000000;
+    --purple: #6C56E1;
+    --scrollBackground: #E3E1E8;
+    --scrollBar: #C8C5D4;
+    --grey: #808080;
+}
+
 * {
     padding: 0px;
     margin: 0px;
