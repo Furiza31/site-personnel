@@ -1,13 +1,14 @@
 const express = require('express');
 const app = express();
 const PORT = 3000;
+const path = require("path");
 
 // static files
 app.use(express.static('public'));
 
 // roots
 app.get('/', (req, res) => {
-    res.render("pages/index", { title: "Accueil" });
+    res.sendFile(path.join(__dirname, "views", "index.html"));
 });
 
 app.listen(PORT, () => {
