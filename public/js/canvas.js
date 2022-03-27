@@ -15,7 +15,7 @@ window.addEventListener("resize", () => {
 
 if (canvas.getContext) {
     let ctx = canvas.getContext('2d');
-    ctx.strokeStyle = 'black';
+    ctx.fillStyle = "#000000";
 
     function drawWave() {
         // calculates the slope of the curve
