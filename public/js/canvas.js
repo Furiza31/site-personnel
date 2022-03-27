@@ -15,9 +15,15 @@ window.addEventListener("resize", () => {
 
 if (canvas.getContext) {
     let ctx = canvas.getContext('2d');
-    ctx.fillStyle = "#000000";
 
     function drawWave() {
+        // darkmode
+        if (darkmode) {
+            ctx.fillStyle = "#EEEEEE";
+        } else {
+            ctx.fillStyle = "#000000";
+        }
+
         // calculates the slope of the curve
         let pante = canvas.height / canvas.width;
 
