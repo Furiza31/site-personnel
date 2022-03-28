@@ -1,6 +1,6 @@
 let canvas = document.getElementById("canvas");
 let degree = 0;
-const amplitude = 30;
+const amplitude = 50;
 const period = 1000;
 const speed = 2;
 
@@ -17,11 +17,11 @@ if (canvas.getContext) {
     let ctx = canvas.getContext('2d');
 
     function drawWave() {
-        // darkmode
+
         if (darkmode) {
             ctx.fillStyle = "#EEEEEE";
         } else {
-            ctx.fillStyle = "#000000";
+            ctx.fillStyle = "#1a1525";
         }
 
         // calculates the slope of the curve

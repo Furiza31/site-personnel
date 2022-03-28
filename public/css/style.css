@@ -1,20 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 :root {
-    --white: #EEEEEE;
-    --black: #000000;
+    --text: #EEEEEE;
+    --textOnBackground: #222531;
+    --background: #EEEEEE;
+    --blackground: #1a1525;
     --purple: #6C56E1;
-    --scrollBackground: #E3E1E8;
-    --scrollBar: #C8C5D4;
-    --grey: #808080;
 }
 
 .dark {
-    --white: #000000;
-    --black: #EEEEEE;
+    --text: #222531;
+    --textOnBackground: #EEEEEE;
+    --background: #1a1525;
+    --blackground: #EEEEEE;
     --purple: #6C56E1;
-    --scrollBackground: #E3E1E8;
-    --scrollBar: #C8C5D4;
-    --grey: #808080;
 }
 
 * {
@@ -22,11 +20,11 @@
     margin: 0px;
     font-size: 17px;
     font-family: 'Comfortaa', cursive;
-    color: var(--white);
+    color: var(--text);
 }
 
 body {
-    background-color: var(--white);
+    background-color: var(--background);
 }
 
 canvas {

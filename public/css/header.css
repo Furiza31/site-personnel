@@ -50,12 +50,12 @@ header a svg {
 }
 
 .moon {
-    fill: var(--white);
+    fill: var(--background);
     transition-duration: 0.3s;
 }
 
 .sun {
-    fill: var(--white);
+    fill: var(--background);
     transition-duration: 0.3s;
 }
 
