@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 :root {
     --text: #EEEEEE;
     --background: #24292E;
@@ -11,6 +11,7 @@
     --grey: #444D56;
     --purple: #9392F0;
     --yellow: #FFD718;
+    --dark: #151515;
 }
 
 .dark {
@@ -31,12 +32,21 @@
     padding: 0px;
     margin: 0px;
     font-size: 17px;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Fira Code', monospace;
     color: var(--text);
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
     background-color: var(--background);
+}
+
+a {
+    text-decoration: none;
 }
 
 canvas {
@@ -44,8 +54,48 @@ canvas {
     display: block;
     width: 100%;
     height: 100%;
+    top: 0px;
+    left: 0px;
 }
 
 .bold {
     font-weight: bold;
+}
+
+main {
+    position: relative;
+    display: block;
+}
+
+
+/* Custom scroll bar */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: var(--blackground);
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: var(--blue);
+    border-radius: 2px;
+}
+
+
+/* Highlight */
+
+::selection {
+    background: rgba(36, 109, 221, 0.3);
 }

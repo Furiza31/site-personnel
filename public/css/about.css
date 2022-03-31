@@ -1,0 +1,40 @@
+div.about-container {
+    position: relative;
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    box-shadow: 1px -10px 10px var(--background);
+    padding-top: 150px;
+}
+
+div.about-title {
+    position: relative;
+    display: block;
+}
+
+div.about-title h1 {
+    position: relative;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+}
+
+div.about-title h2 {
+    position: relative;
+    display: block;
+    font-size: 23px;
+    color: var(--grey);
+    text-align: center;
+}
+
+div.about-text {
+    position: relative;
+    display: block;
+    width: 30%;
+    min-width: 300px;
+    margin-top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 2px solid var(--blue);
+    padding: 20px;
+}

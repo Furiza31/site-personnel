@@ -8,6 +8,8 @@
     <!-- css -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/about.css">
     <!-- js -->
     <script src="/js/darkMode.js" defer></script>
     <script src="/js/canvas.js" defer></script>
@@ -22,10 +24,9 @@
             <a> Hugo Wendjaneh </a>
         </div>
         <div>
-            <a>Accueil</a>
-            <a>Qui suis-je</a>
+            <a href="#home-container">Accueil</a>
+            <a href="#about-container">Qui suis-je</a>
             <a>Compétences</a>
-            <a>Services</a>
             <a>Contactez moi</a>
             <a id="darkmodeButton">
                 <svg id="moonSvg" version="1.0" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
@@ -80,6 +81,39 @@
             </a>
         </div>
     </header>
+
+    <main>
+        <div id="home-container" class="home-container">
+            <div class="home-text">
+                <h1>
+                    Bonjour, <br> Je suis Hugo Wendjaneh
+                </h1>
+                <h2>Etudiant en informatique</h2>
+                <a>Contactez-moi</a>
+            </div>
+            <div class="home-image">
+                <img src="/img/moi.png" alt="Moi">
+            </div>
+        </div>
+
+        <div id="about-container" class="about-container">
+            <div class="about-title">
+                <h1>Qui suis-je</h1>
+                <h2>Introduction</h2>
+            </div>
+            <div class="about-text">
+                <p>
+                    Dès mon plus jeune âge, j’ai su être quelqu’un de profondément curieux, motivé et rigoureux pour apprendre de nouvelles choses. C’est sûrement ce qui m’a amené dans le secteur du informatique.
+                    <br><br> Sans cesse en évolution, en symbiose avec les nouvelles technologies, la programmation occupe maintent une place importante dans ma vie.
+                    <br><br> Étudiant à l'IUT de Blagnac en première année, je compte poursuivre mes études jusqu'en Master afin de devenir développeur Full Stack.
+                </p>
+            </div>
+        </div>
+
+        <div id="skill-container" class="skill-container">
+
+        </div>
+    </main>
 
 </body>
 
