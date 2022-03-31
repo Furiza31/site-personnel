@@ -39,6 +39,12 @@ header a:hover::before {
     width: 100%;
 }
 
+header a.active::before {
+    left: 0px;
+    right: 100%;
+    width: 100%;
+}
+
 header div:last-child a:last-child::before {
     height: 0px;
     width: 0px;
