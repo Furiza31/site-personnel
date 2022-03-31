@@ -5,3 +5,23 @@ div.skills-container {
     width: 100vw;
     padding-top: 150px;
 }
+
+div.skills-title {
+    position: relative;
+    display: block;
+}
+
+div.skills-title h1 {
+    position: relative;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+}
+
+div.skills-title h2 {
+    position: relative;
+    display: block;
+    font-size: 23px;
+    color: var(--grey);
+    text-align: center;
+}
