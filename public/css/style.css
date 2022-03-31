@@ -1,18 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 :root {
     --text: #EEEEEE;
-    --textOnBackground: #222531;
-    --background: #EEEEEE;
-    --blackground: #1a1525;
-    --purple: #6C56E1;
+    --background: #24292E;
+    --blackground: #1F2428;
+    --blue: #246DDD;
+    --lightBlue: #79B8F2;
+    --darkblue: #2429AE;
+    --green: #5CDC8F;
+    --red: #F9695F;
+    --grey: #444D56;
+    --purple: #9392F0;
+    --yellow: #FFD718;
 }
 
 .dark {
-    --text: #222531;
-    --textOnBackground: #EEEEEE;
-    --background: #1a1525;
-    --blackground: #EEEEEE;
-    --purple: #6C56E1;
+    --text: #EEEEEE;
+    --background: #1F2428;
+    --blackground: #24292E;
+    --blue: #246DDD;
+    --lightBlue: #79B8F2;
+    --darkblue: #2429AE;
+    --green: #5CDC8F;
+    --red: #F9695F;
+    --grey: #444D56;
+    --purple: #9392F0;
+    --yellow: #FFD718;
 }
 
 * {

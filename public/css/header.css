@@ -24,7 +24,7 @@ header a::before {
     right: 0px;
     width: 0px;
     height: 2px;
-    background-color: var(--purple);
+    background-color: var(--blue);
     transition: width 0.3s cubic-bezier(0.25, 1, 1, 1);
 }
 
@@ -50,21 +50,21 @@ header a svg {
 }
 
 .moon {
-    fill: var(--background);
+    fill: var(--text);
     transition-duration: 0.3s;
 }
 
 .sun {
-    fill: var(--background);
+    fill: var(--text);
     transition-duration: 0.3s;
 }
 
 header a:last-child:hover .sun {
-    fill: var(--purple);
+    fill: var(--blue);
 }
 
 header a:last-child:hover .moon {
-    fill: var(--purple);
+    fill: var(--blue);
 }
 
 header a svg#sunSvg {

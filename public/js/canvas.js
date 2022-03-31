@@ -19,9 +19,9 @@ if (canvas.getContext) {
     function drawWave() {
 
         if (darkmode) {
-            ctx.fillStyle = "#EEEEEE";
+            ctx.fillStyle = "#24292E";
         } else {
-            ctx.fillStyle = "#1a1525";
+            ctx.fillStyle = "#1F2428";
         }
 
         // calculates the slope of the curve
