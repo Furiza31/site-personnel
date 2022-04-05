@@ -30,20 +30,49 @@ div.skills {
     position: relative;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    margin-top: 20px;
+    justify-content: space-around;
+    margin-top: 50px;
     left: 5%;
     width: 90%;
+    gap: 100px;
+}
+
+div.skills>* {
+    flex: 1 1 500px;
 }
 
 div.skills div {
     position: relative;
-    display: block;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
     background-color: var(--blackground);
     padding: 20px;
     border-radius: 10px;
+    border: 1px solid var(--dark);
+    box-shadow: 1px 1px 5px var(--dark);
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    align-items: center;
+    transition-duration: 0.3s;
+}
+
+div.skills div:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+div.skills div img {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 100px;
 }
 
 div.skills div h3 {
+    position: relative;
+    display: block;
     color: var(--blue);
+    text-align: center;
 }
