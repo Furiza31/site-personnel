@@ -38,7 +38,7 @@ div.skills {
 }
 
 div.skills>* {
-    flex: 1 1 500px;
+    flex: 1 1 25%;
 }
 
 div.skills div {
