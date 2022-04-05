@@ -25,3 +25,25 @@ div.skills-title h2 {
     color: var(--grey);
     text-align: center;
 }
+
+div.skills {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    left: 5%;
+    width: 90%;
+}
+
+div.skills div {
+    position: relative;
+    display: block;
+    background-color: var(--blackground);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+div.skills div h3 {
+    color: var(--blue);
+}
