@@ -35,6 +35,7 @@ div.skills {
     left: 5%;
     width: 90%;
     gap: 100px;
+    transition-duration: 0.3s;
 }
 
 div.skills>* {
@@ -68,6 +69,7 @@ div.skills div img {
     display: block;
     width: 100px;
     height: 100px;
+    filter: invert(70%);
 }
 
 div.skills div h3 {
@@ -75,4 +77,68 @@ div.skills div h3 {
     display: block;
     color: var(--blue);
     text-align: center;
+}
+
+div.skills-information {
+    position: absolute;
+    display: none;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--blackground);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--dark);
+    box-shadow: 1px 1px 5px var(--dark);
+    width: 30%;
+    min-width: 250px;
+    animation-name: skills-informationApear;
+    animation-duration: 0.3s;
+}
+
+@keyframes skills-informationApear {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+div.skills-information div {
+    position: relative;
+    display: none;
+}
+
+div.skills-information div h3 {
+    position: relative;
+    display: block;
+    color: var(--blue);
+    margin-bottom: 20px;
+}
+
+div.skills-information div div {
+    position: absolute;
+    display: block;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    transform: translate(50%, -67%) rotate(45deg);
+    padding: 5px;
+    transition-duration: 0.3s;
+}
+
+div.skills-information div div:hover {
+    color: var(--red);
+    cursor: pointer;
+}
+
+div.skills-information div ol {
+    list-style-position: inside;
+}
+
+div.skills-information div ol li span {
+    color: var(--purple);
 }
