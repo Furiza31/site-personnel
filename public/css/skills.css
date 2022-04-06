@@ -82,6 +82,15 @@ div.skills div h3 {
 div.skills-information {
     position: absolute;
     display: none;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+div.skills-information div {
+    position: absolute;
+    display: none;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -107,11 +116,6 @@ div.skills-information {
     }
 }
 
-div.skills-information div {
-    position: relative;
-    display: none;
-}
-
 div.skills-information div h3 {
     position: relative;
     display: block;
@@ -124,10 +128,19 @@ div.skills-information div div {
     display: block;
     top: 20px;
     right: 20px;
+    left: auto;
     font-size: 30px;
-    transform: translate(50%, -67%) rotate(45deg);
+    transform: translate(50%, -30%) rotate(45deg);
     padding: 5px;
     transition-duration: 0.3s;
+    height: 30px;
+    width: 30px;
+    min-width: 0px;
+    background-color: transparent;
+    border-radius: 0px;
+    box-shadow: none;
+    border: none;
+    animation-name: none;
 }
 
 div.skills-information div div:hover {
