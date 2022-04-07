@@ -34,7 +34,7 @@ div.skills {
     margin-top: 50px;
     left: 5%;
     width: 90%;
-    gap: 100px;
+    gap: 50px;
     transition-duration: 0.3s;
 }
 
