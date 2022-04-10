@@ -1,0 +1,118 @@
+div.contact-container {
+    position: relative;
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 150px;
+}
+
+div.contact-title {
+    position: relative;
+    display: block;
+}
+
+div.contact-title h1 {
+    position: relative;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+}
+
+div.contact-title h2 {
+    position: relative;
+    display: block;
+    font-size: 23px;
+    color: var(--grey);
+    text-align: center;
+}
+
+div.contact-form {
+    position: relative;
+    display: block;
+    margin-top: 75px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+div.contact-form form {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+div.contact-form form div.headerForm {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+div.contact-form form div.headerForm div {
+    position: relative;
+    display: block;
+    width: 45%;
+}
+
+div.contact-form form div.headerForm div input {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid var(--dark);
+    border-radius: 5px;
+    outline: none;
+    background-color: var(--blackground);
+    box-sizing: border-box;
+}
+
+div.contact-form form div.headerForm div label {
+    position: relative;
+    display: block;
+    margin-bottom: 5px;
+}
+
+div.contact-form form div.messageForm {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+}
+
+div.contact-form form div.messageForm label {
+    position: relative;
+    display: block;
+    margin-bottom: 5px;
+}
+
+div.contact-form form div.messageForm textarea {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid var(--dark);
+    border-radius: 5px;
+    outline: none;
+    background-color: var(--blackground);
+    box-sizing: border-box;
+    resize: none;
+    height: 100px;
+}
+
+div.contact-form form input[type="submit"] {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    width: fit-content;
+    padding: 10px;
+    background-color: var(--blue);
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    outline: none;
+    border: 0px;
+    margin-top: 25px;
+}
+
+div.contact-form form input[type="submit"]:hover {
+    background-color: var(--darkblue);
+}
