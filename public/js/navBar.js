@@ -1,5 +1,10 @@
 let header = document.getElementById("header");
 let headerLinks = header.querySelectorAll("a");
+let home_container = document.getElementById("home-container");
+let about_container = document.getElementById("about-container");
+let skills_container = document.getElementById("skills-container");
+let qualification_container = document.getElementById("qualification-container");
+let contact_container = document.getElementById("contact-container");
 
 for (let i = 0; i < headerLinks.length - 1; i++) {
     if (i == 0) {
@@ -29,3 +34,9 @@ for (let i = 0; i < headerLinks.length - 1; i++) {
         });
     }
 }
+
+window.addEventListener("scroll", () => {
+    for (i = 0; i < headerLinks.length; i++) {
+
+    }
+});
