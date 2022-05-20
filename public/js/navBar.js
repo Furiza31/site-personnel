@@ -42,7 +42,7 @@ window.addEventListener("scroll", debounce(function() {
     }
     for (i = 0; i < container.length; i++) {
         let position = container[i].getBoundingClientRect();
-        if (position.top < window.innerHeight && position.bottom >= 200) {
+        if (position.top < window.innerHeight && position.bottom >= 50) {
             if (i == 0) {
                 headerLinks[i + 1].classList.add("active");
                 headerLinks[i].classList.add("active");
